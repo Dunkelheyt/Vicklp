@@ -5,10 +5,51 @@
 .btn{
   margin-left: 1em;
   margin-right: 1em;
+  width: 130px !important;
 }
 
 .imgclass{
     height: 100%;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 
@@ -24,4 +65,32 @@
     height: 450px;
   }
 
+}
+
+@media (min-width: 992px) {
+    .youtubevid {
+        width: 350px;
+        height: 250px; /* 720px */
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .youtubevid {
+        width: 320px;
+        height: 250px; /* 480px */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+    .youtubevid {
+        width: 480px;
+        height: 270px; /* 320px */
+    }
+}
+
+@media (max-width: 480px) {
+    .youtubevid {
+        width: 93vw;
+        height: 190px; /* 225px */
+    }
 }

@@ -10,8 +10,8 @@ class Panel extends Component {
     return(
       <div class="clearfix borders">
         <img src={placeholder300250} class="float-left pull-left mr-2"></img>
-        <h3 class="text-center">h3. Bootstrap heading</h3>
-        <p class="text-center lead">This text appears next to the image.</p>
+        <h3 class="text-center">{this.props.title}</h3>
+        <p class="text-center lead">{this.props.bullshit}</p>
       </div>
     );
   }
