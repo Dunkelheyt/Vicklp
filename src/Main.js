@@ -12,6 +12,7 @@ import PanelRight from "./PanelRight";
 import Navbar from "./Navbar";
 import JumbotronVideo from "./JumbotronVideo";
 import YTComplete from "./YTComplete";
+import VickDisco from "./VickDisco";
 
 class Main extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class Main extends React.Component {
           <Route exact path="/" component={Home}/>
           <Route path="/stuff" component={Stuff}/>
           <Route path="/videos" component={YTComplete}/>
+          <Route path="/discografia" component={VickDisco}/>
           </div>
         </div>
     </HashRouter>

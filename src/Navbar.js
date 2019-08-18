@@ -25,7 +25,7 @@ class Navbar extends Component{
             <button type="button" class="btn btn-outline-secondary"><NavLink to="/videos">Videos</NavLink></button>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-outline-secondary">Discografia</button>
+            <button type="button" class="btn btn-outline-secondary"><NavLink to="/discografia">Discografia</NavLink></button>
           </li>
           <li class="nav-item">
             <button type="button" class="btn btn-outline-secondary">Colaboraciones</button>

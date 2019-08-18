@@ -15,7 +15,7 @@ class JumbotronVideo extends Component{
             <div class="w-100 text-white">
               <Navbar/>
               <h1 class="display-3">Logo here</h1>
-              <p class="lead mb-0">Small text</p>
+              <p class="lead mb-0">Mango Papercraft</p>
             </div>
           </div>
         </div>
