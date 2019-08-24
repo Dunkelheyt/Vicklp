@@ -10,7 +10,7 @@ class VickDisco extends React.Component{
         return <div class = "clearfix borderscomplete container mb-3">
         <div class = "row">
         <div class = "col-sm-6">
-            <img class = "img-thumbnail float-left pull-left mr-2 imgclass" src={postDetail.image} />
+            <img class = "img-thumbnail float-left pull-left mr-2 discc" src={postDetail.image} />
         </div>
 
         <div class = "col-sm-6">

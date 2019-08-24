@@ -5,7 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
+import Biography from "./Biography";
 import Contact from "./Contact";
 import Panel from './Panel';
 import PanelRight from "./PanelRight";
@@ -22,7 +22,7 @@ class Main extends React.Component {
           <JumbotronVideo/>
           <div className="content">
           <Route exact path="/" component={Home}/>
-          <Route path="/stuff" component={Stuff}/>
+          <Route path="/biografia" component={Biography}/>
           <Route path="/videos" component={YTComplete}/>
           <Route path="/discografia" component={VickDisco}/>
           </div>

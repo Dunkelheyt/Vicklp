@@ -19,7 +19,7 @@ class Navbar extends Component{
             <button type="button" class="btn btn-outline-secondary"><NavLink to="/">Inicio</NavLink></button>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-outline-secondary"><NavLink to="/stuff">Biografia</NavLink></button>
+            <button type="button" class="btn btn-outline-secondary"><NavLink to="/biografia">Biografia</NavLink></button>
           </li>
           <li class="nav-item">
             <button type="button" class="btn btn-outline-secondary"><NavLink to="/videos">Videos</NavLink></button>

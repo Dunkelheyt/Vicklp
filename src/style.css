@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 .borders{
   border-bottom: 6px solid black;
 }
@@ -9,8 +13,23 @@
 }
 
 .imgclass{
-    width: 100%;
-    height: 500px;
+    width: 50%;
+    height: 50%;
+}
+
+.discc{
+  width:90%;
+  height: 100%;
+}
+
+.banner{
+  width:100%;
+  height:20vw;
+  background-image: url("placeholder.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -80,6 +99,10 @@ header .overlay {
         width: 320px;
         height: 250px; /* 480px */
     }
+    .imgclass{
+        width: 65%;
+        height: 50%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 766px) {
@@ -93,5 +116,10 @@ header .overlay {
     .youtubevid {
         width: 93vw;
         height: 190px; /* 225px */
+    }
+
+    .imgclass{
+        width: 85%;
+        height: 50%;
     }
 }
