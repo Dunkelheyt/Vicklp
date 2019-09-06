@@ -25,6 +25,7 @@ class Main extends React.Component {
           <Route path="/biografia" component={Biography}/>
           <Route path="/videos" component={YTComplete}/>
           <Route path="/discografia" component={VickDisco}/>
+          <Route path="/contacto" component={Contact}/>
           </div>
         </div>
     </HashRouter>

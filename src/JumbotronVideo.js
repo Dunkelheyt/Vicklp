@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Navbar from "./Navbar";
-
+import video from "./video.mp4";
+import logo from "./logotest.png";
 
 class JumbotronVideo extends Component{
   render(){
@@ -8,14 +9,14 @@ class JumbotronVideo extends Component{
       <header>
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"></source>
+          <source src={video} type="video/mp4"></source>
         </video>
         <div class="container h-100">
           <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
               <Navbar/>
-              <h1 class="display-3">Logo aqui</h1>
-              <p class="lead mb-0">Pequeño texto aqui</p>
+              <img src={logo} class="jumbotronlogo"></img>
+              <p class="lead mb-0">Vick LP</p>
             </div>
           </div>
         </div>
