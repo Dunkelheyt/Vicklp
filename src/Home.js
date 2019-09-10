@@ -18,22 +18,33 @@ class Home extends Component {
     return (
       <div>
         <div class="container">
-        <h1 class ="text-center title"><Fade bottom>Inicio</Fade></h1>
+        <h1 class ="text-center title borders"><Fade bottom>Inicio</Fade></h1>
         <div class="container">
-          <div class="row ">
+          <div class="row">
           <div class="col-sm-6"><NavLink to="/bio"><MiddlePanel text = "Biografia"/></NavLink></div>
-          <div class="col-sm-6"><MiddlePanel/></div>
-          <div class="col-sm-6"><MiddlePanel/></div>
-          <div class="col-sm-6"><MiddlePanel/></div>
+          <div class="col-sm-6"><MiddlePanel text = "Colaboraciones"/></div>
+          </div>
+          <div class = "row">
+          <div class="col"><NavLink to="/contacto"><MiddlePanel text = "Contacto"/></NavLink></div>
           </div>
         </div>
         </div>
-        <div class="banner"></div>
-        <h1 class ="text-center title"><Slide bottom>Videos</Slide></h1>
 
         <div class="banner"></div>
-        <h1 class ="text-center title"><Slide bottom>Social</Slide></h1>
+
+
         <div class ="container">
+        <h1 class ="text-center title borders"><Slide bottom>Videos y Discografía</Slide></h1>
+          <div class="row">
+          <div class="col-sm-6"><NavLink to="/disco"><MiddlePanel text = "Discografia"/></NavLink></div>
+          <div class="col-sm-6"><NavLink to="/videos"><MiddlePanel text = "Videos"/></NavLink></div>
+          </div>
+        </div>
+
+        <div class="banner"></div>
+
+        <div class ="container">
+        <h1 class ="text-center title borders"><Slide bottom>Social</Slide></h1>
         <div class ="row text-center">
           <div class ="col-sm-4">
           <p class ="text-center">Facebook</p>

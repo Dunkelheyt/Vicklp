@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import placeholder150150 from "./150150.jpg";
 import placeholder300250 from "./300250.jpg";
 
 class PanelRight extends Component {

@@ -17,7 +17,7 @@ class JumbotronVideo extends Component{
             <div class="w-100 text-white">
               <Navbar/>
               <img src={logo} class="jumbotronlogo"></img>
-              <p class="lead mb-0"><Fade bottom>Vick LP</Fade></p>
+              <p class="lead mb-0"><Fade bottom>Vick LePonce</Fade></p>
             </div>
           </div>
         </div>

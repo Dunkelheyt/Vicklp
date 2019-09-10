@@ -7,8 +7,8 @@ class YTComplete extends React.Component{
   render() {
     return(
       <div>
-        <h1 class = "text-center title tracking-in-contract tracking-in-contract"><Fade bottom>Videos</Fade></h1>
         <div class = "container">
+        <h1 class = "text-center title borders "><Fade bottom>Videos</Fade></h1>
         <div class = "row align-items-start">
         {data.map((postDetail, index) =>{
           return <Slide bottom><div>

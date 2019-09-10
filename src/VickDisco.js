@@ -6,7 +6,7 @@ class VickDisco extends React.Component{
   render() {
     return(
       <div class="container">
-      <h1 class="text-center title tracking-in-contract"><Fade bottom>Discografía</Fade></h1>
+      <h1 class="text-center title tracking-in-contract borders"><Fade bottom>Discografía</Fade></h1>
       {data.map((postDetail, index)=>{
         return <div class = "clearfix borderscomplete container mb-3 borderss" >
         <div class = "row">

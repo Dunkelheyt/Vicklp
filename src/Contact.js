@@ -5,9 +5,11 @@ class Contact extends Component {
   render() {
     return (
       <div class = "container">
-        <h1 class="text-center title tracking-in-contract"><Fade bottom>Contacto</Fade></h1>
+        <h1 class="text-center title tracking-in-contract borders"><Fade bottom>Contacto</Fade></h1>
         <p><Fade bottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius urna faucibus nisi mollis, in ultrices nibh aliquam.
          Vestibulum vel dolor non ex auctor vulputate vitae a nisi.
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius urna faucibus nisi mollis, in ultrices nibh aliquam.
+          Vestibulum vel dolor non ex auctor vulputate vitae a nisi.
          Pellentesque posuere nisi at rhoncus cursus. Pellentesque consequat dui ipsum, et fermentum magna sodales dapibus. </Fade></p>
 
          <Fade bottom>

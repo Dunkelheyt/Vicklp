@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import placeholder150150 from "./150150.jpg";
 import placeholder500500 from "./500500.jpg";
 import placeholder470400 from "./470400.jpg";
 import placeholder300300 from "./300300.jpg";
