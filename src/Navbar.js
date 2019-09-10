@@ -18,13 +18,13 @@ class Navbar extends Component{
           <NavLink to="/"><li class="nav-item  nav-justified">
             <button type="button" class="btn btn-dark boxshadow">Inicio</button>
           </li></NavLink>
-          <NavLink to="/biografia"><li class="nav-item">
+          <NavLink to="/bio"><li class="nav-item">
             <button type="button" class="btn btn-dark boxshadow">Biografia</button>
           </li></NavLink>
           <NavLink to="/videos"><li class="nav-item">
             <button type="button" class="btn btn-dark boxshadow">Videos</button>
           </li></NavLink>
-          <NavLink to="/discografia"><li class="nav-item">
+          <NavLink to="/disco"><li class="nav-item">
             <button type="button" class="btn btn-dark boxshadow">Discografia</button>
           </li></NavLink>
           <li class="nav-item">

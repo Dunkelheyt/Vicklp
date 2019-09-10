@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Navbar from "./Navbar";
+import Fade from "react-reveal/Fade";
 import video from "./video.mp4";
 import logo from "./logotest.png";
 
@@ -16,7 +17,7 @@ class JumbotronVideo extends Component{
             <div class="w-100 text-white">
               <Navbar/>
               <img src={logo} class="jumbotronlogo"></img>
-              <p class="lead mb-0">Vick LP</p>
+              <p class="lead mb-0"><Fade bottom>Vick LP</Fade></p>
             </div>
           </div>
         </div>

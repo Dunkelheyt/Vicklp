@@ -22,9 +22,9 @@ class Main extends React.Component {
           <JumbotronVideo/>
           <div className="content">
           <Route exact path="/" component={Home}/>
-          <Route path="/biografia" component={Biography}/>
+          <Route path="/bio" component={Biography}/>
           <Route path="/videos" component={YTComplete}/>
-          <Route path="/discografia" component={VickDisco}/>
+          <Route path="/disco" component={VickDisco}/>
           <Route path="/contacto" component={Contact}/>
           </div>
         </div>

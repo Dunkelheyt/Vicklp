@@ -1,14 +1,16 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 
 class Contact extends Component {
   render() {
     return (
       <div class = "container">
-        <h1 class="text-center title">Contacto</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius urna faucibus nisi mollis, in ultrices nibh aliquam.
+        <h1 class="text-center title tracking-in-contract"><Fade bottom>Contacto</Fade></h1>
+        <p><Fade bottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius urna faucibus nisi mollis, in ultrices nibh aliquam.
          Vestibulum vel dolor non ex auctor vulputate vitae a nisi.
-         Pellentesque posuere nisi at rhoncus cursus. Pellentesque consequat dui ipsum, et fermentum magna sodales dapibus. </p>
+         Pellentesque posuere nisi at rhoncus cursus. Pellentesque consequat dui ipsum, et fermentum magna sodales dapibus. </Fade></p>
 
+         <Fade bottom>
         <form method="POST" action="https://formspree.io/dalmadxx@gmail.com">
         <div class="form-group">
           <label for="exampleFormControlInput1">Nombre completo:</label>
@@ -34,6 +36,7 @@ class Contact extends Component {
         </div>
         <button type="submit">Enviar</button>
       </form>
+      </Fade>
       </div>
     );
   }
