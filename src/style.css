@@ -3,32 +3,45 @@ body, html {
   background:#010009;
 }
 
-p,h1,h2{
+p,h1,h2, label, ul, li{
   color: white;
+  letter-spacing: 2px;
 }
 
+h1,h2{
+  font-weight: 550;
+}
+
+
+hr{
+  display: block;
+  height: 3px;
+  border: 0;
+  border-top: 4px solid #dad6d5;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.marginTop{
+  margin-top: 8px;
+}
 .bg{
   background: #39393d;
 }
 
+.imgbg{
+  width:100%;
+  height:100%;
+  background-image: url("Triangle2.png");
+  background-position: center;
+}
+
 .title{
-  margin-top:3vw;
-  margin-bottom:4vw;
+  margin-top:3.5vw;
   color: white;
 }
 
-.titleTop{
-  margin-top: 4vw;
-  margin-bottom: 1.5vw;
-}
-.borders{
-  border-bottom: 6px solid white;
-}
-.borderss{
-  border: 6px solid white;
-}
-
-.yellowborder{
+.whiteborder{
   border: 4px solid #dad6d5;
 }
 
@@ -36,11 +49,7 @@ p,h1,h2{
   border-radius: 25px;
 }
 
-
-.nover{
-  text-align: left;
-}
-
+/*Buttons information*/
 .btn{
   margin-left: 1em;
   margin-right: 1em;
@@ -81,8 +90,22 @@ p,h1,h2{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top:1vw;
-  margin-bottom:1vw;
+  margin-top:1.5vw;
+  margin-bottom:1.5vw;
+}
+
+/*No Margin fix*/
+.NoMargin{
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+/*Timeline*/
+.timelineLetters{
+  width: 100%;
+  height: 150px;
+  position: relative;
+  line-height: 1;
 }
 
 /*YOUTUBE IFRAME'S VALUES*/
@@ -214,4 +237,14 @@ header .overlay {
       margin-bottom:10vw;
     }
 
+}
+
+/*Small Animations*/
+.zoom{
+  transition: transform 0.7s;
+}
+.zoom:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+   transform: scale(1.06);
 }

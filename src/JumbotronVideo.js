@@ -8,8 +8,8 @@ class JumbotronVideo extends Component{
   render(){
     return(
       <header>
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <div className="overlay"></div>
+        <video playsInline="playsInline" autoPlay="autoplay" muted="muted" loop="loop">
           <source src={video} type="video/mp4"></source>
         </video>
         <div class="container h-100">

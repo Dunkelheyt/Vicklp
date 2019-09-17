@@ -8,9 +8,9 @@ class MiddlePanel extends Component {
   render(){
     return(
       <div class="content text-center ">
-        <figure class="figure nover">
-        <img src={placeholder500300} class="img-fluid rounded yellowborder"/>
-        <p class ="text-left">{this.props.text}</p>
+        <figure class="figure">
+        <img src={placeholder500300} class="img-fluid rounded yellowborder zoom"/>
+        <p class ="text-center marginTop">{this.props.text}</p>
         </figure>
       </div>
     );

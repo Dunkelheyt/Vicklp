@@ -5,7 +5,7 @@ class BiographyPapers extends Component{
   render(){
     return(
       <div>
-      <div class ="container bg roundborder yellowborder">
+      <div class ="container bg roundborder whiteborder">
         <div class="row text-center">
           <div class="col-sm-6">
             <img src={photo} alt="Principal" class = " rounded mx-auto d-bloc imgclass"/>

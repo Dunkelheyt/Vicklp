@@ -13,6 +13,7 @@ import Navbar from "./Navbar";
 import JumbotronVideo from "./JumbotronVideo";
 import YTComplete from "./YTComplete";
 import VickDisco from "./VickDisco";
+import ScrollUpBtn from "./ScrollUpBtn";
 
 class Main extends React.Component {
   render() {
@@ -27,6 +28,7 @@ class Main extends React.Component {
           <Route path="/disco" component={VickDisco}/>
           <Route path="/contacto" component={Contact}/>
           </div>
+          <ScrollUpBtn/>
         </div>
     </HashRouter>
     );
