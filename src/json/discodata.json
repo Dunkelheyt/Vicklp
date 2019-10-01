@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Circles EP",
+    "type": "EP",
+    "date": "2019/XX/XX",
+    "image": "https://images.media-allrecipes.com/userphotos/560x315/4577069.jpg",
+    "alt": "1st album",
+    "info": "kjhasgdfkjlahgsdfakhiluwse3klsahjudfaskljhdfaskljhbdfaskl;jdhfasdflkbhj",
+    "noTracks": "3",
+    "tracks": ["Do the same", "Sweet Melody", "Sides", "Sweet Melody", "Sides"]
+  },
+  {
+    "title": "Circles EP 2",
+    "type": "EP",
+    "date": "2019/XX/XX",
+    "image": "https://images.media-allrecipes.com/userphotos/560x315/4577069.jpg",
+    "alt": "2nd album",
+    "info": "kjhasgdfkjlahgsdfakhiluwse3klsahjudfaskljhdfaskljhbdfaskl;jdhfasdflkbhj",
+    "noTracks": "3",
+    "tracks": ["Do the same", "Sweet Melody", "Sides"]
+  }
+]
