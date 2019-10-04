@@ -7,8 +7,7 @@ import logo from "./../img/logotest.png";
 class JumbotronVideo extends Component {
   render() {
     return (
-      <header>
-        <div className="overlay"></div>
+      <header className="h50 lg-12">
         <video
           playsInline="playsInline"
           autoPlay="autoplay"
@@ -18,12 +17,12 @@ class JumbotronVideo extends Component {
         >
           <source src={video} type="video/mp4"></source>
         </video>
-        <div class="container h-100">
-          <div class="d-flex h-100 text-center align-items-center">
+        <div class="container">
+          <div class="text-center align-items-center">
             <div class="w-100 text-white">
               <Navbar />
-              <img src={logo} class="jumbotronlogo" alt="Logo Vick"></img>
-              <p class="lead mb-0">
+              <img src={logo} class="h75" alt="Logo Vick"></img>
+              <p class="lead botMargin">
                 <Fade bottom>Músico & Compositor</Fade>
               </p>
             </div>

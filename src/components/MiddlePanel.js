@@ -5,7 +5,7 @@ class MiddlePanel extends Component {
   render() {
     return (
       <div class="content text-center ">
-        <figure class="figure">
+        <figure class="figure ">
           <img
             src={placeholder500300}
             class="img-fluid rounded yellowborder zoom"

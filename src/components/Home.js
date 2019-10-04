@@ -18,7 +18,7 @@ class Home extends Component {
           <Bounce bottom>
             <hr />
           </Bounce>
-          <div className="container">
+          <div>
             <div className="row">
               <div className="col-sm-6">
                 <NavLink to="/bio">
@@ -29,8 +29,8 @@ class Home extends Component {
                 <MiddlePanel text="Colaboraciones" />
               </div>
             </div>
-            <div className="row">
-              <div className="col-sm-12">
+            <div className="row justify-content-sm-center">
+              <div className="col-sm-6">
                 <NavLink to="/contacto">
                   <MiddlePanel text="Contacto" />
                 </NavLink>
@@ -179,17 +179,17 @@ class Home extends Component {
             <hr />
           </Bounce>
           <div className="row text-center">
-            <div className="col-sm-4">
+            <div className="col-sm-6 col-md-6 col-lg-4">
               <p className="text-center">Facebook</p>
               <FacebookPage />
             </div>
-            <div className="col-sm-4">
-              <p className="text-center">Instagram</p>
-              <Instagram />
-            </div>
-            <div className="col-sm-4">
+            <div className="col-sm-6 col-md-6 col-lg-4">
               <p className="text-center">Twitter</p>
               <TwitterTimeline />
+            </div>
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              <p className="text-center">Instagram</p>
+              <Instagram />
             </div>
           </div>
         </div>

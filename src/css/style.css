@@ -95,6 +95,11 @@ hr {
   height: 75%;
 }
 
+.video {
+  width: 100%;
+  height: 100%;
+}
+
 .discc {
   width: 100%;
   height: 450px;
@@ -104,8 +109,8 @@ hr {
 
 .banner {
   width: 100%;
-  height: 14vw;
-  background-image: url("./../img/placeholder.jpg");
+  height: 20vw;
+  background-image: url("./../img/banner.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,13 +120,25 @@ hr {
 }
 
 .opacityvideo {
-  opacity: 0.9;
+  opacity: 1;
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h75 {
+  height: 75%;
 }
 
 /*No Margin fix*/
 .NoMargin {
   margin-left: 0em;
   margin-right: 0em;
+}
+
+.botMargin {
+  margin-bottom: 1em;
 }
 
 /*Timeline*/
@@ -258,7 +275,7 @@ header .overlay {
 
   .banner {
     width: 100%;
-    height: 25vw;
+    height: 35vw;
   }
 
   .title {
