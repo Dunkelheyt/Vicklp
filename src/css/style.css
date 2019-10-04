@@ -191,6 +191,11 @@ header .overlay {
   z-index: 1;
 }
 
+.youtubevid {
+  width: 350px;
+  height: 250px; /* 720px */
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 600px) {
@@ -211,7 +216,7 @@ header .overlay {
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1024px) {
   .youtubevid {
     width: 290px;
     height: 250px; /* 720px */

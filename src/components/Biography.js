@@ -34,7 +34,7 @@ class Biography extends Component {
       <div>
         <div className="container">
           <h1 class="text-center title imgbg">
-            <Fade bottom>Biografia</Fade>
+            <Fade bottom>Biografía</Fade>
           </h1>
           <Bounce bottom>
             <hr />
