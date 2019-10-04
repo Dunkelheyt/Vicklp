@@ -20,7 +20,7 @@ class YoutubeVideos extends React.Component {
               return (
                 <Slide bottom>
                   <div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
                       <iframe
                         class="youtubevid whiteborder"
                         src={postDetail.id}

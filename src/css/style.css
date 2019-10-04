@@ -213,7 +213,7 @@ header .overlay {
 
 @media (min-width: 992px) {
   .youtubevid {
-    width: 350px;
+    width: 290px;
     height: 250px; /* 720px */
   }
 }
