@@ -23,7 +23,7 @@ class JumbotronVideo extends Component {
               <Navbar />
               <img src={logo} class="h75" alt="Logo Vick"></img>
               <p class="lead botMargin">
-                <Fade bottom>Músico & Compositor</Fade>
+                <Fade bottom>Productor & Compositor</Fade>
               </p>
             </div>
           </div>
