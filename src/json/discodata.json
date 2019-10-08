@@ -1,22 +1,31 @@
 [
   {
-    "title": "Circles EP",
-    "type": "EP",
-    "date": "2019/XX/XX",
-    "image": "https://images.media-allrecipes.com/userphotos/560x315/4577069.jpg",
-    "alt": "1st album",
+    "title": "Do the same",
+    "type": "Single",
+    "date": "2019 - Ago/04",
+    "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/67914924_652290901917616_8609970275133423616_n.jpg?_nc_cat=109&_nc_oc=AQmdEdA8BwfJBK9J38Qj5cP3hgxM5UfTUTXG1CxuI0ec44KZIeL6cp36AxZPkNvGSZFL-M5XuQplg63gLVuwWxsX&_nc_ht=scontent-dfw5-1.xx&oh=286e9b7b409e861b6dfd5ad8aa09d375&oe=5E34AA2E",
+    "alt": "Single",
     "info": "kjhasgdfkjlahgsdfakhiluwse3klsahjudfaskljhdfaskljhbdfaskl;jdhfasdflkbhj",
-    "noTracks": "3",
-    "tracks": ["Do the same", "Sweet Melody", "Sides", "Sweet Melody", "Sides"]
+    "noTracks": "1",
+    "tracks": ["Do the same"]
   },
   {
-    "title": "Circles EP 2",
-    "type": "EP",
-    "date": "2019/XX/XX",
-    "image": "https://images.media-allrecipes.com/userphotos/560x315/4577069.jpg",
-    "alt": "2nd album",
+    "title": "Sweet Melody",
+    "type": "Single",
+    "date": "2019 - Jul/19",
+    "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/67501232_643162766163763_4529810395438776320_n.jpg?_nc_cat=100&_nc_oc=AQlk6tnwFEHYIhE4KkKF8fPRLmacTrjMOXgv5pnVTCVa93pDYdrT7kiYsQsz5hZ2jOFRJymU2qn1GiM8XesNuy8c&_nc_ht=scontent-dfw5-1.xx&oh=7d3e93d62a3594d4a42cb59ab16efc6e&oe=5DF2299E",
+    "alt": "Single",
     "info": "kjhasgdfkjlahgsdfakhiluwse3klsahjudfaskljhdfaskljhbdfaskl;jdhfasdflkbhj",
-    "noTracks": "3",
-    "tracks": ["Do the same", "Sweet Melody", "Sides"]
+    "noTracks": "1",
+    "tracks": ["Sweet Melody"]
+  },
+  {
+    "title": "SIDES",
+    "type": "Single",
+    "date": "2019 - Abr/19",
+    "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/48427767_530343367445704_2877069549297991680_o.jpg?_nc_cat=107&_nc_oc=AQm07lkpznIn4plq6qDdcpk-ruiixr0pE20J0v-NZDBZDR8upxm4b6YWRYN8wL46FMkBFRB18hmdh6IzCbvN7xvm&_nc_ht=scontent-dfw5-1.xx&oh=571d1d292f99c6dbc5906e1ad7a70fb0&oe=5DF002C6",
+    "info": "kjhasgdfkjlahgsdfakhiluwse3klsahjudfaskljhdfaskljhbdfaskl;jdhfasdflkbhj",
+    "noTracks": "1",
+    "tracks": ["SIDES"]
   }
 ]

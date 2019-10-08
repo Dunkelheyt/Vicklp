@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import JumbotronVideo from "./components/JumbotronVideo";
 import YoutubeVideos from "./components/YoutubeVideos";
 import VickDisco from "./components/VickDisco";
+import Collabs from "./components/Collabs";
 import ScrollUpBtn from "./components/ScrollUpBtn";
 
 class Main extends React.Component {
@@ -19,6 +20,7 @@ class Main extends React.Component {
             <Route path="/bio" component={Biography} />
             <Route path="/videos" component={YoutubeVideos} />
             <Route path="/disco" component={VickDisco} />
+            <Route path="/colaboraciones" component={Collabs} />
             <Route path="/contacto" component={Contact} />
           </div>
           <ScrollUpBtn />

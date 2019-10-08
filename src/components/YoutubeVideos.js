@@ -1,20 +1,14 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import Bounce from "react-reveal/Bounce";
+import Title from "./Title";
 import data from "./../json/videodata.json";
 
 class YoutubeVideos extends React.Component {
   render() {
     return (
       <div>
+        <Title title="Videos" />
         <div class="container">
-          <h1 class="text-center title imgbg">
-            <Fade bottom>Videos</Fade>
-          </h1>
-          <Bounce bottom>
-            <hr />
-          </Bounce>
           <div class="row align-items-start">
             {data.map((postDetail, index) => {
               return (

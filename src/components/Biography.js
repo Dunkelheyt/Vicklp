@@ -1,27 +1,20 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import Bounce from "react-reveal/Bounce";
 import HorizontalTimeline from "react-horizontal-timeline";
 import BiographyText from "./BiographyText";
+import Title from "./Title";
 
-const VALUES = [
-  "1993/May/01",
-  "1993/May/06",
-  "1993/Jan/06",
-  "2000-05-05",
-  "2005-05-05",
-  "2010-05-05",
-  "2019-05-05"
-];
+const VALUES = ["2019/April/19", "2019/Jul/19", "2019/Aug/04"];
 const TextValues = [
-  "Primero",
-  "Segundo",
-  "Tercero",
-  "Cuarto",
-  "Quinto",
-  "Sexto",
-  "Septimo"
+  "En este dia se lanzo el Single de " +
+    "SIDES" +
+    " que con el cual se conto con la bla bla bla, meter relleno",
+  "En este dia se lanzo el Single de " +
+    "Sweet Melody" +
+    " que con el cual se conto con la bla bla bla, meter relleno",
+  "En este dia se lanzo el Single de " +
+    "Do the same" +
+    " que con el cual se conto con la bla bla bla, meter relleno"
 ];
 const reactElementsArray = TextValues.map(data => {
   return <p>{data}</p>;
@@ -32,14 +25,8 @@ class Biography extends Component {
   render() {
     return (
       <div>
+        <Title title="Biografia" />
         <div className="container">
-          <h1 class="text-center title imgbg">
-            <Fade bottom>Biografía</Fade>
-          </h1>
-          <Bounce bottom>
-            <hr />
-          </Bounce>
-
           <div class="timelineLetters">
             <HorizontalTimeline
               index={this.state.value}
@@ -67,13 +54,8 @@ class Biography extends Component {
 
         <div class="banner"></div>
 
+        <Title title="Sobre mi" />
         <div className="container">
-          <h1 class="text-center title imgbg">
-            <Fade bottom>Sobre mi</Fade>
-          </h1>
-          <Bounce bottom>
-            <hr />
-          </Bounce>
           <BiographyText />
         </div>
       </div>

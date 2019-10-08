@@ -52,11 +52,13 @@ class Navbar extends Component {
                   </button>
                 </li>
               </NavLink>
-              <li class="nav-item">
-                <button type="button" className="btn btn-dark boxshadow">
-                  Colaboraciones
-                </button>
-              </li>
+              <NavLink to="/colaboraciones">
+                <li class="nav-item">
+                  <button type="button" className="btn btn-dark boxshadow">
+                    Colaboraciones
+                  </button>
+                </li>
+              </NavLink>
               <NavLink to="/contacto">
                 <li className="nav-item">
                   <button type="button" className="btn btn-dark boxshadow">

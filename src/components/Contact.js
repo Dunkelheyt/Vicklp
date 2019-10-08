@@ -1,17 +1,12 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
+import Title from "./Title";
 
 class Contact extends Component {
   render() {
     return (
       <div class="container">
-        <h1 class="text-center title borders imgbg">
-          <Fade bottom>Contacto</Fade>
-        </h1>
-        <Bounce bottom>
-          <hr />
-        </Bounce>
+        <Title title="Contacto" />
         <p>
           <Fade bottom>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam

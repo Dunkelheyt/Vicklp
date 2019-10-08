@@ -4,72 +4,73 @@ import FacebookPage from "./social/FacebookPage";
 import Instagram from "./social/Instagram";
 import TwitterTimeline from "./social/TwitterTimeline";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
 import { NavLink } from "react-router-dom";
+import Title from "./Title";
+import conoceme from "./../img/conoceme.jpg";
+import contacto from "./../img/office.jpg";
+import disco from "./../img/disco.jpg";
+import video from "./../img/video.jpg";
+import collab from "./../img/collab.png";
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <Title title="Inicio" />
         <div className="container">
-          <h1 className="text-center title imgbg">
-            <Fade bottom>Inicio</Fade>
-          </h1>
-          <Bounce bottom>
-            <hr />
-          </Bounce>
-          <div>
-            <div className="row">
-              <div className="col-sm-6">
-                <NavLink to="/bio">
-                  <MiddlePanel text="Biografia" />
-                </NavLink>
-              </div>
-              <div className="col-sm-6">
-                <MiddlePanel text="Colaboraciones" />
-              </div>
-            </div>
-            <div className="row justify-content-sm-center">
-              <div className="col-sm-6">
-                <NavLink to="/contacto">
-                  <MiddlePanel text="Contacto" />
-                </NavLink>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="banner"></div>
-
-        <div className="container">
-          <h1 className="text-center title imgbg">
-            <Fade bottom>Trayectoria</Fade>
-          </h1>
-          <Bounce bottom>
-            <hr />
-          </Bounce>
           <div className="row">
             <div className="col-sm-6">
-              <NavLink to="/disco">
-                <MiddlePanel text="Discografia" />
-              </NavLink>
+              <Fade bottom>
+                <NavLink to="/bio">
+                  <MiddlePanel url={conoceme} text="Biografia" />
+                </NavLink>
+              </Fade>
             </div>
             <div className="col-sm-6">
-              <NavLink to="/videos">
-                <MiddlePanel text="Videos" />
-              </NavLink>
+              <Fade bottom>
+                <NavLink to="/colaboraciones">
+                  <MiddlePanel url={collab} text="Colaboraciones" />
+                </NavLink>
+              </Fade>
             </div>
+          </div>
+          <div className="row justify-content-sm-center">
+            <Fade bottom>
+              <div className="col-sm-6">
+                <NavLink to="/contacto">
+                  <MiddlePanel url={contacto} text="Contacto" />
+                </NavLink>
+              </div>
+            </Fade>
           </div>
         </div>
 
         <div className="banner"></div>
+
+        <Title title="Trayectoria" />
         <div className="container">
-          <h1 className="text-center title imgbg">
-            <Fade bottom>Servicios</Fade>
-          </h1>
-          <Bounce bottom>
-            <hr />
-          </Bounce>
+          <div className="row">
+            <Fade bottom>
+              <div className="col-sm-6">
+                <NavLink to="/disco">
+                  <MiddlePanel url={disco} text="Discografia" />
+                </NavLink>
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className="col-sm-6">
+                <NavLink to="/videos">
+                  <MiddlePanel url={video} text="Videos" />
+                </NavLink>
+              </div>
+            </Fade>
+          </div>
+        </div>
+
+        <div className="banner"></div>
+
+        <Title title="Servicios" />
+        <div className="container">
           <ul className="text-left">
             <Fade bottom>
               <li>
@@ -170,14 +171,8 @@ class Home extends Component {
 
         <div className="banner"></div>
 
+        <Title title="Social" />
         <div className="container">
-          <h1 className="text-center title imgbg">
-            <Fade bottom>Social</Fade>
-          </h1>
-
-          <Bounce bottom>
-            <hr />
-          </Bounce>
           <div className="row text-center">
             <div className="col-sm-6 col-md-6 col-lg-4">
               <p className="text-center">Facebook</p>
